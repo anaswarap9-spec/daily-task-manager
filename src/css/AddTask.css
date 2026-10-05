@@ -1,0 +1,95 @@
+
+.add-task-page {
+  min-height: calc(100vh - 70px);
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f5f7ff, #eef1ff);
+  box-sizing: border-box;
+}
+
+
+.add-task-card {
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(50, 50, 100, 0.12);
+  box-sizing: border-box;
+}
+
+
+.add-task-card h1 {
+  margin: 0;
+  text-align: center;
+  color: #2d2d44;
+  font-size: 32px;
+}
+
+
+.add-task-card > p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+
+.add-task-card label {
+  display: block;
+  margin-bottom: 7px;
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.add-task-card input,
+.add-task-card textarea,
+.add-task-card select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.add-task-card input:focus,
+.add-task-card textarea:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+
+.add-task-card textarea {
+  height: 110px;
+  resize: vertical;
+}
+
+
+
+.add-task-card button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #6c63ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.add-task-card button:hover {
+  background: #554de8;
+  transform: translateY(-2px);
+}
+
+
+
+

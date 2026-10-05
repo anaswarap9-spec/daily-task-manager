@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "title": "Pay electricity bill",
+      "status": "Completed"
+    },
+    {
+      "title": "studying",
+      "status": "Pending",
+      "id": "yZhM6Jzjr0w"
+    },
+    {
+      "title": "bathing",
+      "status": "Pending",
+      "id": "7KW3b3Xu25A"
+    },
+    {
+      "title": "movie",
+      "status": "Pending",
+      "id": "wQeFRRNyaqk"
+    },
+    {
+      "title": "react practice 2",
+      "status": "Pending",
+      "id": "O2PJAgXGU5k"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
