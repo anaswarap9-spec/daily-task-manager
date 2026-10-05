@@ -16,7 +16,8 @@ function Home() {
     try {
 
       const result = await axios.get(
-        "http://localhost:3000/tasks"
+        "https://daily-task-manager-api.onrender.com/tasks"
+        
       );
 
       setTodos(result.data);
